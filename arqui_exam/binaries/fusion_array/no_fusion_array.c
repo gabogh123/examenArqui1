@@ -1,4 +1,3 @@
-// archivo: array_no_optimization.c
 #include <stdio.h>
 
 #define N 100000
@@ -39,11 +38,6 @@ int main() {
         result[i] = array4[i - ((3*N)/4)] * 2;
     }
 
-    /*
-    for (int i = 0; i < N; ++i) {
-        printf("%d", result[i]);
-    }
-    */
 
     return 0;
 }
