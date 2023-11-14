@@ -18,11 +18,6 @@ int main() {
         result[i] = array1[i] * 2;
     }
 
-    /*
-    for (int i = 0; i < N; ++i) {
-        printf("%d", result[i]);
-    }
-    */
 
     return 0;
 }
